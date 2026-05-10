@@ -1,0 +1,10 @@
+{
+    "clean_accuracy": 29.97,
+    "certified_accuracy": 24.65,
+    "epochs": 200,
+    "aux_data": false,
+    "model": "LinfDistNet",
+    "dataset": "CIFAR-10",
+    "threat_model": "l-inf",
+    "epsilon": 0.03137
+}
