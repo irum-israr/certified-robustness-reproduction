@@ -36,5 +36,7 @@ python train.py
 python inference.py
 ```
 
-## Project Structure
+## Kaggle Notebook
+https://www.kaggle.com/code/irumisrar/dl-reproduce-results
+https://www.kaggle.com/code/irumisrar/dl-proposed-3
 
