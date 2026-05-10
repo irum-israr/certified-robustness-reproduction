@@ -1,0 +1,23 @@
+model:
+  input_dim: 3072
+  width: 512
+  depth: 4
+  num_classes: 10
+
+training:
+  epochs: 200
+  batch_size: 128
+  learning_rate: 0.001
+  aux_fraction: 0.7
+  eps_train: 0.03137
+  eps_test: 0.03137
+  seed: 42
+
+dataset:
+  name: CIFAR10
+  data_dir: ./data
+  aux_data_path: ./data/edm_1m.npz
+
+results:
+  save_dir: ./results
+  checkpoint_dir: ./checkpoints
